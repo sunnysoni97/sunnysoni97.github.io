@@ -3,4 +3,12 @@
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size:cover;
+
+	height:20%;
+}
+
+#content {
+	background-color: orange ;
+
+	height:80%;
 }
