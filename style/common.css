@@ -1,4 +1,4 @@
-#header {
+.headerSite {
 	background-image: url("../static/common/header.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
@@ -7,7 +7,7 @@
 	height:20%;
 }
 
-#content {
+.contentSite {
 	background-color: orange ;
 
 	height:80%;
