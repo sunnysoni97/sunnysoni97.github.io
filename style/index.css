@@ -2,3 +2,10 @@
 	border:1vh solid transparent;
 	border-image : url("../static/common/border-1.png") 15%;
 }
+
+.profilePhoto {
+	max-width:75%;
+	height:auto;
+	border: medium #0979B1 solid;
+	border-radius:1vh;
+}
