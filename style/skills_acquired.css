@@ -1,0 +1,36 @@
+.subContentBorder {
+	border:0.4vh solid white;
+}
+
+.navTabsFix {
+	border-bottom:none!important;
+	min-height:100%;
+	justify-content:space-evenly;
+}
+
+.navLinkFix {
+	border-radius:.25rem!important;
+	text-align:center;
+	color:#003b80;
+}
+
+.navLinkFix.active {
+	background-color:transparent!important;
+	border-color:#002a5a!important;
+	color:#002a5a!important;
+	font-weight:bold;
+}
+
+.navLinkFix:hover {
+	border-color:#0062d2!important;	
+}
+
+.acadTab{
+	min-height:100%;
+}
+
+.acadTab.active{
+	display:flex!important;
+	flex-direction: column;
+	justify-content: center;
+}
