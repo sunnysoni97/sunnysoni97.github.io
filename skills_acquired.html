@@ -13,6 +13,16 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+
+  <link rel="stylesheet" href="style/gallery-css.css">
+  <script src="style/gallery-js.js" type="text/javascript"></script>
+
+
+
+
   <title>
     My Life's Journey 
   </title>
@@ -61,8 +71,55 @@
           </div>
           <div class="col-md-9 col-sm-12 subContentBorder">
             <div class="tab-content" id="v-pills-tabContent" style="height:100%">
+              
               <div class="tab-pane fade show active acadTab" id="v-pills-acad" role="tabpanel" aria-labelledby="v-pills-acad-tab">
-                <h4> Academics </h4>
+                
+                <div class="row border-bottom acadRow">
+                  <div class="col-md-7 col-sm-12">
+                    <h4> Completed High School </h4>
+                    <h4 class="font-weight-light"> Year 2015 </h4>
+                    <h5> <small> from </small> DAV Public School, Pushpanjali Enclave </h5>
+                    <h5 class="font-weight-light"> Pitampura, New Delhi, India </h5>  
+                  </div>
+                  
+                  <div class="col-md-5 col-sm-12">
+                    <div class="container galleryContainer">
+                      <div class="row justify-content-center">
+                          <div class="col-sm-6">
+                              <a href="static/skills_acquired/school.png" class="fancybox" rel="lightbox">
+                                  <img  src="static/skills_acquired/school.png" class="zoom img-fluid "  alt="DAV Public School">
+                              </a>
+                          </div>
+                          <div class="col-sm-6">
+                              <a href="static/skills_acquired/school.png"  class="fancybox" rel="lightbox">
+                                  <img  src="static/skills_acquired/school.png" class="zoom img-fluid"  alt="2nd Image">
+                              </a>
+                          </div>              
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row acadRow">
+                  <div class="col-md-7 col-sm-12">
+                    <h4> Pursuing Bachelor's Degree in Technology<br/> <small>in</small> Computer Science Engineering </h4>
+                    <h4 class="font-weight-light"> Expected to be completed by Year 2020 </h4>
+                    <h5> <small> from </small> HMR Institute of Technology and Management,<br/> Guru Gobind Singh Indraprashta University </h5>
+                    <h5 class="font-weight-light"> New Delhi, India </h5>  
+                  </div>
+                  <div class="col-md-5 col-sm-12">
+                    <div class="container galleryContainer">
+                      <div class="row justify-content-center">
+                          <div class="col-sm-8">
+                              <a href="static/skills_acquired/hmritm.png" class="fancybox" rel="lightbox2">
+                                  <img  src="static/skills_acquired/hmritm.png" class="zoom img-fluid "  alt="HMRITM">
+                              </a>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
               </div>
               
               <div class="tab-pane fade" id="v-pills-tech" role="tabpanel" aria-labelledby="v-pills-tech-tab">
