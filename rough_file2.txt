@@ -1,10 +1,5 @@
 - RANDOM SCRIBBLING SPACE FOR ME -
 
-Operating Systems Familiarity :
-
-1. Linux : {Most used distro: Ubuntu
-2. Windows :
-
 
 Official Certifications :
 
@@ -17,3 +12,25 @@ Official Certifications :
 3. Android Application Development 
 
 4. Python Programming with Artificial Intelligence
+
+
+Coding Languages Known :
+
+C++	Python	Java	PHP	MySQL	HTML	CSS	Javascript	 
+
+Frameworks Known : 
+
+Tensorflow Android SpringBoot Kivy Bootstrap
+
+
+Development Environments used :
+
+1. OS : Linux ( Most Used Distro : Ubuntu (Debian) ), Windows
+2. Git Code Management tools using Terminal
+3. IDEs like VSCode, intelliJIdea, Android Studio, codeBlocks
+4. Compilers using Terminals like gcc and JDKs
+
+Additional Knowledge :
+
+1. Familiarity with Creative Solutions such as Adobe Creative Suite, Ableton Studios
+2. Well versed with solving a variety of OS related software issues on different machines
