@@ -32,5 +32,10 @@
 .acadTab.active{
 	display:flex!important;
 	flex-direction: column;
-	justify-content: center;
+	justify-content: space-around;
+}
+
+.acadRow{
+	padding-bottom:5%;
+	padding-top:5%;
 }
