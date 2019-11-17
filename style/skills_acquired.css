@@ -5,13 +5,14 @@
 .navTabsFix {
 	border-bottom:none!important;
 	min-height:100%;
-	justify-content:space-evenly;
+	justify-content:flex-start;
 }
 
 .navLinkFix {
 	border-radius:.25rem!important;
 	text-align:center;
 	color:#003b80;
+	margin-top:2rem;
 }
 
 .navLinkFix.active {
