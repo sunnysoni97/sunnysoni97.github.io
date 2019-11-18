@@ -7,20 +7,31 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="stylesheet" href="style/common.css">
+  <link rel="stylesheet" href="style/skills_acquired.css">
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+
+  <link rel="stylesheet" href="style/gallery-css.css">
+  <script src="style/gallery-js.js" type="text/javascript"></script>
+
+  <script src="style/common.js" type="text/javascript"></script>
+
+
   <title>
     My Life's Journey 
   </title>
 </head>
 
 <body>
-   <div class="container-fluid mainBody">
+  <div class="container-fluid mainBody" style="overflow-y:scroll;">
     <div class="row align-items-center headerSite">
-      <div class="col-12">
+      <div class="col">
         <h1 class="text-center"> Vitae-lia 
           <small class="font-weight-lighter">
             journey of my life
@@ -30,7 +41,7 @@
     </div>
     
     <div class="row align-items-center justify-content-center navSite">
-      <div class="col-12 col-lg-6">  
+      <div class="col-12 col-md-8 col-lg-6">  
         <ul class="nav nav-pills nav-justified">
           <li class="nav-item">
             <a class="nav-link" href="index.html">Story's Beginning</a>
@@ -47,6 +58,278 @@
         </ul>
       </div>
     </div>
+
+    <div class="row justify-content-center" style="min-height:73%">
+      <div class="col-md-10 col-12 contentBorder">
+        <div class="row" style="min-height:100%">
+          <div class="col-md-3 col-12 subContentBorder centerRow" >
+            <div class="nav flex-column nav-tabs navTabsFix" id="v-pills-tab2" role="tablist" aria-orientation="vertical">
+              <a class="nav-link navLinkFix active" id="v-pills-workex-tab" data-toggle="pill" href="#v-pills-workex" role="tab" aria-controls="v-pills-acad" aria-selected="true">Work Experience</a>
+              <a class="nav-link navLinkFix" id="v-pills-projects-tab" data-toggle="pill" href="#v-pills-projects" role="tab" aria-controls="v-pills-tech" aria-selected="false">Projects Portfolio</a>
+            </div>
+          </div>
+          <div class="col-md-9 col-12 subContentBorder">
+            <div class="tab-content" id="v-pills-tabContent2" style="height:100%">
+              
+              <div class="tab-pane fade show active" style="min-height:100%" id="v-pills-workex" role="tabpanel" aria-labelledby="v-pills-workex-tab">
+                <div class="row border-bottom centerRow justify-content-center">
+                  <div class="col-md-7 col-12">
+                    
+                    <h4><small> Worked as a</small><br/>Software API Development Intern</h4>
+                    <h5><small> with </small> PayTM (One 97 Communications Ltd.) </h5>
+                    <h6><small>from </small> 3rd June, 2019 <small>to</small> 11th July, 2019</h6>
+                    <br/>
+                    <p class="text-justify"> The workload included working on web-backend technologies including Spring Framework, NodeJS and related full-stack development technologies used in the PayTM payment ecosystem. </p>
+
+                  </div>
+                  <div class="col-md-5 col-10">
+                    <div class="container galleryContainer">
+                      <div class="row justify-content-center">
+                          <div class="col-10">
+                              <a href="static/sample.png" class="fancybox" rel="lightbox7">
+                                  <img  src="static/sample.png" class="zoom img-fluid "  alt="paytm internship certificate">
+                              </a>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row centerRow justify-content-center">
+                  <div class="col-6">
+                    <a class="btn btn-outline-primary mx-auto d-block smallBtn" id="workexBtn"> Continue... </a>
+                  </div>
+                </div>
+                
+              
+              </div>
+              
+              <div class="tab-pane fade" style="min-height:100%" id="v-pills-projects" role="tabpanel" aria-labelledby="v-pills-projects-tab">
+                
+                <div class="row mt-3">
+                  
+                  <div class="col-12 mb-3">
+                    <h4 class="text-center"> ... Summary of My Notable Open Source Projects ... </h4>
+                  </div>
+                  
+                  <div class="col-12">
+                    <div class="row border-bottom border-top centerRow">
+                      <div class="col-7 centerRow1">
+                        <h5> iPlantify - <small>your personal plant encylopedia</small></h5>
+                        <br/>
+                        <h5 class="text-justify"><small>An Android Application used for identification of a different number of plants and flowers using the phone's camera and displaying information from the web. It is based on the TensorFlow Lite framework used for image classification in the backend. Data training has been done on computer using the python variant of the same framework and images scraped over the internet.  </small></h5>
+                        <br/>
+                        <center><a href="https://github.com/sunnysoni97/iplantify_droid" class="btn btn-info btn-sm active" role="button" aria-pressed="true">Project Link</a></center>
+                      </div>
+                      <div class="col-5">
+                        <div class="container galleryContainer">
+                          <div class="row justify-content-center">
+                              <div class="col-md-5 col-6 mb-3">
+                                  <a href="static/sample.png" class="fancybox" rel="lightbox8">
+                                      <img  src="static/sample.png" class="zoom img-fluid "  alt="project 1 screenshot1">
+                                  </a>
+                              </div>
+                              <div class="col-md-5 col-6 mb-3">
+                                  <a href="static/sample.png" class="fancybox" rel="lightbox8">
+                                      <img  src="static/sample.png" class="zoom img-fluid "  alt="project 1 screenshot2">
+                                  </a>
+                              </div>
+                              <div class="col-md-5 col-6 mb-3">
+                                  <a href="static/sample.png" class="fancybox" rel="lightbox8">
+                                      <img  src="static/sample.png" class="zoom img-fluid "  alt="project 1 screenshot3">
+                                  </a>
+                              </div>
+                              <div class="col-md-5 col-6 mb-3">
+                                  <a href="static/sample2.png" class="fancybox" rel="lightbox8">
+                                      <img  src="static/sample2.png" class="zoom img-fluid "  alt="project 1 screenshot4">
+                                  </a>
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-12">
+                    <div class="row border-bottom centerRow1">
+                      <div class="col-7 centerRow">
+                        <h5> Draw - <small>an 8-bit drawing language </small></h5>
+                        <br/>
+                        <h5 class="text-justify"><small> A custom language interpreter to be used as an educational drawing and programming tool for children. The complete application has been designed using the legacy "conio.h" in C++ environment, compiled using Borland's TurboC++ compiler. It supports a large variety of editing functions as well as options for saving and loading data from disk. </small></h5>
+                        <br/>
+                        <center><a href="https://github.com/sunnysoni97/draw_cpp" class="btn btn-info btn-sm active" role="button" aria-pressed="true">Project Link</a></center>
+                      </div>
+                      <div class="col-5">
+                        <div class="container galleryContainer">
+                          <div class="row justify-content-center">
+                              <div class="col-md-5 col-6 mb-3">
+                                  <a href="static/sample.png" class="fancybox" rel="lightbox9">
+                                      <img  src="static/sample.png" class="zoom img-fluid "  alt="project 2 screenshot1">
+                                  </a>
+                              </div>
+                              <div class="col-md-5 col-6 mb-3">
+                                  <a href="static/sample.png" class="fancybox" rel="lightbox9">
+                                      <img  src="static/sample.png" class="zoom img-fluid "  alt="project 2 screenshot2">
+                                  </a>
+                              </div>
+                              <div class="col-md-5 col-6 mb-3">
+                                  <a href="static/sample.png" class="fancybox" rel="lightbox9">
+                                      <img  src="static/sample.png" class="zoom img-fluid "  alt="project 2 screenshot3">
+                                  </a>
+                              </div>
+                              <div class="col-md-5 col-6 mb-3">
+                                  <a href="static/sample2.png" class="fancybox" rel="lightbox9">
+                                      <img  src="static/sample2.png" class="zoom img-fluid "  alt="project 2 screenshot4">
+                                  </a>
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-12">
+                    <div class="row border-bottom centerRow1">
+                      <div class="col-7 centerRow">
+                        <h5> HandReader - <small>an english numeric digit recognition application</small></h5>
+                        <br/>
+                        <h5 class="text-justify"><small> A Kivy GUI framework based cross platform application which uses Tensorflow as the backend for neutral network based classification. The data training is done using the MNIST dataset and the application uses OpenCV to preprocess images taken through the camera and local files.</small></h5>
+                        <br/>
+                        <center><a href="https://github.com/sunnysoni97/hand_reader" class="btn btn-info btn-sm active" role="button" aria-pressed="true">Project Link</a></center>
+                      </div>
+                      <div class="col-5">
+                        <div class="container galleryContainer">
+                          <div class="row justify-content-center">
+                              <div class="col-md-5 col-6 mb-3">
+                                  <a href="static/sample.png" class="fancybox" rel="lightbox10">
+                                      <img  src="static/sample.png" class="zoom img-fluid "  alt="project 3 screenshot1">
+                                  </a>
+                              </div>
+                              <div class="col-md-5 col-6 mb-3">
+                                  <a href="static/sample.png" class="fancybox" rel="lightbox10">
+                                      <img  src="static/sample.png" class="zoom img-fluid "  alt="project 3 screenshot2">
+                                  </a>
+                              </div>
+                              <div class="col-md-5 col-6 mb-3">
+                                  <a href="static/sample.png" class="fancybox" rel="lightbox10">
+                                      <img  src="static/sample.png" class="zoom img-fluid "  alt="project 3 screenshot3">
+                                  </a>
+                              </div>
+                              <div class="col-md-5 col-6 mb-3">
+                                  <a href="static/sample2.png" class="fancybox" rel="lightbox10">
+                                      <img  src="static/sample2.png" class="zoom img-fluid "  alt="project 3 screenshot4">
+                                  </a>
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-12">
+                    <div class="row border-bottom centerRow1">
+                      <div class="col-7 centerRow">
+                        <h5> LibMan PHP - <small>a library management ERP </small></h5>
+                        <br/>
+                        <h5 class="text-justify"><small>An Enterprise Resource Planning package, running on the PHP backend based web server using MySQL database stored over the network. The complete application suite performs various functions of the college library inventory processing, supports credential based login features and similar functionalities. This project uses the combination of Full Stack Web Development languages such as PHP, JavaScript, SQL, CSS and HTML.</small></h5>
+                        <br/>
+                        <center><a href="https://github.com/sunnysoni97/libman_php" class="btn btn-info btn-sm active" role="button" aria-pressed="true">Project Link</a></center>
+                      </div>
+                      <div class="col-5">
+                        <div class="container galleryContainer">
+                          <div class="row justify-content-center">
+                              <div class="col-md-5 col-6 mb-3">
+                                  <a href="static/sample.png" class="fancybox" rel="lightbox11">
+                                      <img  src="static/sample.png" class="zoom img-fluid "  alt="project 4 screenshot1">
+                                  </a>
+                              </div>
+                              <div class="col-md-5 col-6 mb-3">
+                                  <a href="static/sample.png" class="fancybox" rel="lightbox11">
+                                      <img  src="static/sample.png" class="zoom img-fluid "  alt="project 4 screenshot2">
+                                  </a>
+                              </div>
+                              <div class="col-md-5 col-6 mb-3">
+                                  <a href="static/sample.png" class="fancybox" rel="lightbox11">
+                                      <img  src="static/sample.png" class="zoom img-fluid "  alt="project 4 screenshot3">
+                                  </a>
+                              </div>
+                              <div class="col-md-5 col-6 mb-3">
+                                  <a href="static/sample2.png" class="fancybox" rel="lightbox11">
+                                      <img  src="static/sample2.png" class="zoom img-fluid "  alt="project 4 screenshot4">
+                                  </a>
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-12">
+                    <div class="row border-bottom centerRow1">
+                      <div class="col-7 centerRow">
+                        <h5> Profile Services - <small>a spring based web application </small></h5>
+                        <br/>
+                        <h5 class="text-justify"><small> Created in Pure Java using spring framework for handling web requests over the network, this application implements multiple user database management functionalaties using direct file transfers as well as MySQL database systems. Thymeleaf acts as the front-end provider for the web interface. </small></h5>
+                        <br/>
+                        <center><a href="https://github.com/sunnysoni97/spring_server" class="btn btn-info btn-sm active" role="button" aria-pressed="true">Project Link</a></center>
+                      </div>
+                      <div class="col-5">
+                        <div class="container galleryContainer">
+                          <div class="row justify-content-center">
+                              <div class="col-md-5 col-6 mb-3">
+                                  <a href="static/sample.png" class="fancybox" rel="lightbox12">
+                                      <img  src="static/sample.png" class="zoom img-fluid "  alt="project 5 screenshot1">
+                                  </a>
+                              </div>
+                              <div class="col-md-5 col-6 mb-3">
+                                  <a href="static/sample.png" class="fancybox" rel="lightbox12">
+                                      <img  src="static/sample.png" class="zoom img-fluid "  alt="project 5 screenshot2">
+                                  </a>
+                              </div>
+                              <div class="col-md-5 col-6 mb-3">
+                                  <a href="static/sample.png" class="fancybox" rel="lightbox12">
+                                      <img  src="static/sample.png" class="zoom img-fluid "  alt="project 5 screenshot3">
+                                  </a>
+                              </div>
+                              <div class="col-md-5 col-6 mb-3">
+                                  <a href="static/sample2.png" class="fancybox" rel="lightbox12">
+                                      <img  src="static/sample2.png" class="zoom img-fluid "  alt="project 5 screenshot4">
+                                  </a>
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-12">
+                    <div class="row centerRow1 border-bottom">
+                      <div class="col-12">
+                        <h5 class="text-justify"> For a complete summary of my work throughout the year on different projects and some of the minor ones not mentioned here, you can check out my <a href="https://github.com/sunnysoni97">GitHub profile. </a></h5>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+
+                <div class="row centerRow justify-content-center">
+                  <div class="col-6">
+                    <a class="btn btn-outline-primary mx-auto d-block smallBtn" href="vision.html"> Continue... </a>
+                  </div>
+                </div>
+
+              </div>
+              
+              
+            </div>
+          </div>
+        </div>     
+      </div>
+    </div>
+
+    <div class="row" style="min-height:2%">
+    </div>
+
   </div>
 </body>
 
