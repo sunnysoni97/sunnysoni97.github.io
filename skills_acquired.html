@@ -17,6 +17,9 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js"></script>
+
+
   <link rel="stylesheet" href="style/gallery-css.css">
   <script src="style/gallery-js.js" type="text/javascript"></script>
 
@@ -24,12 +27,15 @@
 
 
   <title>
-    My Life's Journey 
+    My Life's Journey - Acquiring Skills
   </title>
+
+  <link rel="shortcut icon" href="static/common/favicon/favicon.ico"/>
+
 </head>
 
 <body>
-  <div class="container-fluid mainBody" style="overflow-y:scroll;">
+  <div class="container-fluid mainBody" style="overflow-y:scroll;" id="mainContainer">
     <div class="row align-items-center headerSite">
       <div class="col">
         <h1 class="text-center"> Vitae-lia 
@@ -408,7 +414,195 @@
               <div class="tab-pane fade" style="min-height:100%" id="v-pills-nontech" role="tabpanel" aria-labelledby="v-pills-nontech-tab">
                 
                 <div class="row border-bottom centerRow">
+                  <div class="col-12">
+                    <h5 class="text-center"> Throughout my school and college life, I have indulged in a wide array of activities and competitions in different fields. Some of them are : </h5> 
+                  </div>
+                </div>
 
+                <div class="row justify-content-start centerRow">
+                  <div class="col-8 mb-3">
+                    <h4 class="text-left"> Informatics Olympiad Enthusiast </h4>
+                    <h5 class="text-justify font-weight-light"> Participated and Won Prizes in a number of Informatics Olympiad throughout the schooling years </h5> 
+                  </div>
+
+                  <div class="col-12">
+                    <div class="container galleryContainer">
+                      <div class="row justify-content-center">
+                          <div class="col-md-3 col-5 mb-3">
+                              <a href="static/sample.png" class="fancybox" rel="lightbox102">
+                                  <img  src="static/sample.png" class="zoom img-fluid "  alt="olympiad 1">
+                              </a>
+                          </div>
+                          <div class="col-md-3 col-5 mb-3">
+                              <a href="static/sample.png" class="fancybox" rel="lightbox102">
+                                  <img  src="static/sample.png" class="zoom img-fluid "  alt="olympiad 2">
+                              </a>
+                          </div>
+                          <div class="col-md-3 col-5 mb-3">
+                              <a href="static/sample.png" class="fancybox" rel="lightbox102">
+                                  <img  src="static/sample.png" class="zoom img-fluid "  alt="olympiad 3">
+                              </a>
+                          </div>
+                          <div class="col-md-3 col-5 mb-3">
+                              <a href="static/sample.png" class="fancybox" rel="lightbox102">
+                                  <img  src="static/sample.png" class="zoom img-fluid "  alt="olympiad 4">
+                              </a>
+                          </div>
+                          <div class="col-md-3 col-5 mb-3">
+                              <a href="static/sample.png" class="fancybox" rel="lightbox102">
+                                  <img  src="static/sample.png" class="zoom img-fluid "  alt="olympiad 5">
+                              </a>
+                          </div>
+                          <div class="col-md-3 col-5 mb-3">
+                              <a href="static/sample.png" class="fancybox" rel="lightbox102">
+                                  <img  src="static/sample.png" class="zoom img-fluid "  alt="olympiad 6">
+                              </a>
+                          </div>
+                          <div class="col-md-3 col-5 mb-3">
+                              <a href="static/sample.png" class="fancybox" rel="lightbox102">
+                                  <img  src="static/sample.png" class="zoom img-fluid "  alt="olympiad 7">
+                              </a>
+                          </div>
+                          <div class="col-md-3 col-5 mb-3">
+                              <a href="static/sample2.png" class="fancybox" rel="lightbox102">
+                                  <img  src="static/sample2.png" class="zoom img-fluid "  alt="olympiad 8">
+                              </a>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="row justify-content-end centerRow">
+                  <div class="col-8 mb-3">
+                    <h4 class="text-right"> Cyber Sports/Gaming Athlete</h4>
+                    <h5 class="text-right font-weight-light"> Participated and Won Prizes in various inter-collegiate Counter Strike Events </h5> 
+                  </div>
+
+                  <div class="col-12">
+                    <div class="container galleryContainer">
+                      <div class="row justify-content-center">
+                          <div class="col-md-3 col-5 mb-3">
+                              <a href="static/sample.png" class="fancybox" rel="lightbox101">
+                                  <img  src="static/sample.png" class="zoom img-fluid "  alt="gaming certi 1">
+                              </a>
+                          </div>
+                          <div class="col-md-3 col-5 mb-3">
+                              <a href="static/sample.png" class="fancybox" rel="lightbox101">
+                                  <img  src="static/sample.png" class="zoom img-fluid "  alt="gaming certi 2">
+                              </a>
+                          </div>
+                          <div class="col-md-3 col-5 mb-3">
+                              <a href="static/sample.png" class="fancybox" rel="lightbox101">
+                                  <img  src="static/sample.png" class="zoom img-fluid "  alt="gaming certi 3">
+                              </a>
+                          </div>
+                          <div class="col-md-3 col-5 mb-3">
+                              <a href="static/sample.png" class="fancybox" rel="lightbox101">
+                                  <img  src="static/sample.png" class="zoom img-fluid "  alt="gaming certi 4">
+                              </a>
+                          </div>
+                          <div class="col-md-3 col-5 mb-3">
+                              <a href="static/sample.png" class="fancybox" rel="lightbox101">
+                                  <img  src="static/sample.png" class="zoom img-fluid "  alt="gaming certi 5">
+                              </a>
+                          </div>
+                          <div class="col-md-3 col-5 mb-3">
+                              <a href="static/sample2.png" class="fancybox" rel="lightbox101">
+                                  <img  src="static/sample2.png" class="zoom img-fluid "  alt="gaming certi 6">
+                              </a>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row justify-content-start centerRow">
+                  <div class="col-8 mb-3">
+                    <h4 class="text-left"> Regular Participant in Variety of Tech-Fest Competitions </h4>
+                    <h5 class="text-justify font-weight-light"> Participated and Won Prizes in a wide range of interschool competitions including multiple interests : Competitive Coding, Audio Mixing, Video Editing, Digital Art Making, Debates </h5> 
+                  </div>
+
+                  <div class="col-12">
+                    <div class="container galleryContainer">
+                      <div class="row justify-content-center">
+                          <div class="col-md-3 col-5 mb-3">
+                              <a href="static/sample.png" class="fancybox" rel="lightbox103">
+                                  <img  src="static/sample.png" class="zoom img-fluid "  alt="inter school 1">
+                              </a>
+                          </div>
+                          <div class="col-md-3 col-5 mb-3">
+                              <a href="static/sample.png" class="fancybox" rel="lightbox103">
+                                  <img  src="static/sample.png" class="zoom img-fluid "  alt="inter school 2">
+                              </a>
+                          </div>
+                          <div class="col-md-3 col-5 mb-3">
+                              <a href="static/sample.png" class="fancybox" rel="lightbox103">
+                                  <img  src="static/sample.png" class="zoom img-fluid "  alt="inter school 3">
+                              </a>
+                          </div>
+                          <div class="col-md-3 col-5 mb-3">
+                              <a href="static/sample.png" class="fancybox" rel="lightbox103">
+                                  <img  src="static/sample.png" class="zoom img-fluid "  alt="inter school 4">
+                              </a>
+                          </div>
+                          <div class="col-md-3 col-5 mb-3">
+                              <a href="static/sample.png" class="fancybox" rel="lightbox103">
+                                  <img  src="static/sample.png" class="zoom img-fluid "  alt="inter school 5">
+                              </a>
+                          </div>
+                          <div class="col-md-3 col-5 mb-3">
+                              <a href="static/sample.png" class="fancybox" rel="lightbox103">
+                                  <img  src="static/sample.png" class="zoom img-fluid "  alt="inter school 6">
+                              </a>
+                          </div>
+                          <div class="col-md-3 col-5 mb-3">
+                              <a href="static/sample.png" class="fancybox" rel="lightbox103">
+                                  <img  src="static/sample.png" class="zoom img-fluid "  alt="inter school 7">
+                              </a>
+                          </div>
+                          <div class="col-md-3 col-5 mb-3">
+                              <a href="static/sample2.png" class="fancybox" rel="lightbox103">
+                                  <img  src="static/sample2.png" class="zoom img-fluid "  alt="inter school 8">
+                              </a>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row justify-content-end centerRow border-bottom">
+                  <div class="col-8 mb-3">
+                    <h4 class="text-right"> Leadership Initiatives</h4>
+                    <h5 class="text-right font-weight-light"> Took leadership positions when given the opportunities and successfully led the students. Includes : Batch Representative Positions as well as Tech Club Presidency  </h5> 
+                  </div>
+
+                  <div class="col-12">
+                    <div class="container galleryContainer">
+                      <div class="row justify-content-center">
+                          <div class="col-md-3 col-5 mb-3">
+                              <a href="static/sample.png" class="fancybox" rel="lightbox104">
+                                  <img  src="static/sample.png" class="zoom img-fluid "  alt="leadership 1">
+                              </a>
+                          </div>
+                          <div class="col-md-3 col-5 mb-3">
+                              <a href="static/sample.png" class="fancybox" rel="lightbox104">
+                                  <img  src="static/sample.png" class="zoom img-fluid "  alt="leadership 2">
+                              </a>
+                          </div>
+                          <div class="col-md-3 col-5 mb-3">
+                              <a href="static/sample.png" class="fancybox" rel="lightbox104">
+                                  <img  src="static/sample.png" class="zoom img-fluid "  alt="leadership 3">
+                              </a>
+                          </div>
+                          <div class="col-md-3 col-5 mb-3">
+                              <a href="static/sample2.png" class="fancybox" rel="lightbox104">
+                                  <img  src="static/sample2.png" class="zoom img-fluid "  alt="leadership 4">
+                              </a>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
                 
                 <div class="row centerRow justify-content-center">
