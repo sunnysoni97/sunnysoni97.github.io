@@ -30,4 +30,5 @@
 
 .smallBtn {
 	max-width:30%;
+	min-inline-size:fit-content;
 }
