@@ -27,3 +27,8 @@
 	border:1vh solid transparent;
 	border-image : url("../static/common/border-1.png") 15%;
 }
+
+.smallBtn {
+	max-width:30%;
+	min-inline-size:fit-content;
+}
