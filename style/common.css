@@ -1,6 +1,6 @@
 .mainBody {
 	height:100vh;
-	background: url("../static/common/background2.jpg") repeat;
+	background: url("../static/common/background4.jpg") no-repeat;
 	/*background-size:100% 100%;*/
 	background-size: cover;
 	background-attachment:fixed;
@@ -10,7 +10,7 @@
 
 .headerSite {
 	background-image: url("../static/common/header.jpg");
-	background-repeat: no-repeat;
+	background-repeat: repeat;
 	background-position: center;
 	background-size:cover;
 
@@ -26,6 +26,7 @@
 .contentBorder {
 	border:1vh solid transparent;
 	border-image : url("../static/common/border-1.png") 15%;
+	background-color : rgba(175,210,254,0.5);
 }
 
 .smallBtn {
